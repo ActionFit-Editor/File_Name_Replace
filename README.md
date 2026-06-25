@@ -7,7 +7,7 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.0"
+    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.1"
   }
 }
 ```
