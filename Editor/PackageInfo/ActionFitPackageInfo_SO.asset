@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5ab7e2b67b436db878fd7b023d8616, type: 3}
+  m_Name: ActionFitPackageInfo_SO
+  m_EditorClassIdentifier: 
+  _packageId: com.actionfit.filenamereplace
+  _displayName: File Name Replace
+  _repoName: File_Name_Replace
+  _owner: 
+  _status: verified
+  _description: "\uC120\uD0DD\uD55C \uD3F4\uB354 \uB0B4 \uD30C\uC77C \uC774\uB984\uC744
+    \uC77C\uAD04 \uBCC0\uACBD\uD558\uB294 \uC5D0\uB514\uD130 \uD234. \uBB38\uC790\uC5F4
+    \uCE58\uD658(Before\u2192After), \uC811\uB450/\uC811\uBBF8\uC0AC \uCD94\uAC00,
+    \uD0A4\uC6CC\uB4DC \uD3EC\uD568 \uD30C\uC77C \uC0AD\uC81C\uB97C \uBBF8\uB9AC\uBCF4\uAE30
+    \uD6C4 \uC2E4\uD589\uD569\uB2C8\uB2E4. \uAC8C\uC784 \uACE0\uC720 \uD0C0\uC785\uACFC
+    \uACB0\uD569\uC774 \uC5C6\uB294 \uC21C\uC218 \uC5D0\uB514\uD130 \uC720\uD2F8\uC785\uB2C8\uB2E4."
+  _releaseNote: "package_catalog/package_versions \uCE74\uD0C8\uB85C\uADF8 \uB9C8\uC774\uADF8\uB808\uC774\uC158\uC744
+    \uC704\uD55C \uC7AC\uBC30\uD3EC \uBC84\uC804"
+  _dependenciesOverride: 
