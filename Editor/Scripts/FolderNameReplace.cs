@@ -19,7 +19,7 @@ public class FileNameReplaceTool : EditorWindow
         Delete
     }
 
-    [MenuItem("Tools/ActionFit/File Name Replace", false, 20)]
+    [MenuItem("Tools/Package/File Name Replace/Open Window", false, 20)]
     public static void Open()
     {
         GetWindow<FileNameReplaceTool>("File Name Replace");

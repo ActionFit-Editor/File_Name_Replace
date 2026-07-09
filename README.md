@@ -7,12 +7,18 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.1"
+    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.4"
   }
 }
 ```
 
 비공개 repo면 각 사용자의 Git이 해당 org repo에 인증돼 있어야 합니다(HTTPS는 PAT/Credential Manager, SSH는 키 등록).
+
+## Unity Menu
+
+- Package root: `Tools > Package > File Name Replace`.
+- README: `Tools > Package > File Name Replace > README`.
+- Package commands stay under the same package root and appear above the separated README/Setting SO entries when those entries exist.
 
 ## 구성
 
@@ -20,7 +26,7 @@
 
 ## 사용
 
-1. `Tools > File Name Replace` 로 윈도우 열기.
+1. `Tools > Package > File Name Replace > Open Window` 로 윈도우 열기.
 2. **Target Folder** 에 대상 폴더(DefaultAsset)를 지정.
 3. 작업 선택:
    - **Replace (Before → After)**: 파일명의 `String Before`를 `String After`로 치환.

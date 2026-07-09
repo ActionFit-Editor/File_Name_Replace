@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.filenamereplace`
 - Display name: File Name Replace
 - Repository: `https://github.com/ActionFit-Editor/File_Name_Replace.git`
-- Current package version at generation time: `1.0.3`
+- Current package version at generation time: `1.0.4`
 - Unity version: `6000.2`
 
 ## Purpose
@@ -49,9 +49,17 @@ Read this file when:
 
 ## Menu And Behavior Notes
 
-- Main menu: `Tools/ActionFit/File Name Replace`.
+- Main menu: `Tools/Package/File Name Replace/Open Window`.
 - Use this guide when changing batch rename rules, before/after replacement workflows, file selection, or rename safety checks.
 - Renaming assets can affect references; preserve Unity `.meta` files and prefer AssetDatabase-based operations.
+
+## Package Tools Menu
+
+- Unity menu root: `Tools/Package/File Name Replace/`.
+- Keep package commands under this package root.
+- Lower separated entries:
+- `README`: opens this package README.
+- Do not add README or Setting SO access back to Custom Package Manager package rows or Project Files.
 
 ## Release Note Rules
 

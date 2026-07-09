@@ -1,6 +1,6 @@
 {
     "name":  "com.actionfit.filenamereplace",
-    "version":  "1.0.3",
+    "version":  "1.0.4",
     "displayName":  "File Name Replace",
     "description":  "선택한 폴더 내 파일 이름을 일괄 변경하는 에디터 툴. 문자열 치환(Before→After), 접두/접미사 추가, 키워드 포함 파일 삭제를 미리보기 후 실행합니다. 게임 고유 타입과 결합이 없는 순수 에디터 유틸입니다.",
     "unity":  "6000.2",
