@@ -7,12 +7,19 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.filenamereplace`
 - Display name: File Name Replace
 - Repository: `https://github.com/ActionFit-Editor/File_Name_Replace.git`
-- Current package version at generation time: `1.0.4`
+- Current package version at generation time: `1.0.5`
 - Unity version: `6000.2`
 
 ## Purpose
 
 File Name Replace manages batch file renaming. Use `README.md`, `package.json`, package source files, and `Editor/PackageInfo/ActionFitPackageInfo_SO.asset` together to understand the user-facing workflow and catalog metadata.
+
+## Agent Skills
+
+- `Skills~/manifest.json` registers schema v2 `file-rename-help` for Codex and Claude with the unique `file-rename` prefix.
+- The help skill is read-only and reads the generated `PACKAGE_SKILLS.md` inventory before explaining package workflows.
+- No skill renames, deletes, or moves files; edits `.meta` files; changes Project selection; or modifies asset references.
+- Custom Package Manager owns project-local installation and safe refresh of this package's skill.
 
 ## Project Router Registration
 

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "skillPrefix": "file-rename",
+  "helpSkill": "file-rename-help",
+  "skills": [
+    {
+      "name": "file-rename-help",
+      "agents": ["codex", "claude"],
+      "includeShared": false,
+      "access": "read-only"
+    }
+  ]
+}

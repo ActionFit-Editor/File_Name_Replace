@@ -7,12 +7,20 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.4"
+    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.5"
   }
 }
 ```
 
 비공개 repo면 각 사용자의 Git이 해당 org repo에 인증돼 있어야 합니다(HTTPS는 PAT/Credential Manager, SSH는 키 등록).
+
+## Agent Skills
+
+After installing or updating the package, run `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`.
+
+- `$file-rename-help`: explains target selection, rename modes, deletion preview, menus, and destructive-operation boundaries.
+
+This package intentionally registers help only. The skill does not rename, delete, or move files; edit `.meta` files; change Project selection; or modify asset references.
 
 ## Unity Menu
 

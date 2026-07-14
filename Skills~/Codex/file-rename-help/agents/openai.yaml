@@ -1,0 +1,4 @@
+interface:
+  display_name: "File Rename Help"
+  short_description: "Explain batch rename workflows without changing files"
+  default_prompt: "Use $file-rename-help to explain File Name Replace workflows and safety boundaries without changing files."
