@@ -7,26 +7,26 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.5"
+    "com.actionfit.filenamereplace": "https://github.com/ActionFit-Editor/File_Name_Replace.git#1.0.6"
   }
 }
 ```
 
 비공개 repo면 각 사용자의 Git이 해당 org repo에 인증돼 있어야 합니다(HTTPS는 PAT/Credential Manager, SSH는 키 등록).
 
-## Agent Skills
+## Agent Skill 안내
 
-After installing or updating the package, run `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`.
+패키지를 설치하거나 업데이트한 뒤 `Tools > Package > Custom Package Manager > Install or Refresh Agent Skills`를 실행합니다.
 
-- `$file-rename-help`: explains target selection, rename modes, deletion preview, menus, and destructive-operation boundaries.
+- `$file-rename-help`: target 선택, rename mode, 삭제 preview, 메뉴와 파괴적 작업 경계를 설명합니다.
 
-This package intentionally registers help only. The skill does not rename, delete, or move files; edit `.meta` files; change Project selection; or modify asset references.
+이 패키지는 의도적으로 help만 등록합니다. Skill은 파일 rename/delete/move, `.meta` 편집, Project 선택 변경 또는 asset 참조 변경을 실행하지 않습니다.
 
-## Unity Menu
+## Unity 메뉴
 
 - Package root: `Tools > Package > File Name Replace`.
 - README: `Tools > Package > File Name Replace > README`.
-- Package commands stay under the same package root and appear above the separated README/Setting SO entries when those entries exist.
+- 패키지 명령은 같은 package root 아래에 유지하며 README/Setting SO 항목이 있으면 분리된 해당 항목보다 위에 표시합니다.
 
 ## 구성
 

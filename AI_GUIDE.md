@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.filenamereplace`
 - Display name: File Name Replace
 - Repository: `https://github.com/ActionFit-Editor/File_Name_Replace.git`
-- Current package version at generation time: `1.0.5`
+- Current package version at generation time: `1.0.6`
 - Unity version: `6000.2`
 
 ## Purpose
